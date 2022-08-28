@@ -1,0 +1,91 @@
+.main {
+  width: 19.5rem;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  padding: 1rem 1.6rem;
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.33rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: .85rem;
+    font-weight: 400;
+  }
+  &--join {
+    background-color: white;
+    h2 {
+      color: $cyan;
+      margin-bottom: 0;
+    }
+    h3 {
+      color: $bright-yellow;
+      margin-top: 1.4rem;
+      margin-bottom: 1.4rem;
+      font-size: 1rem;
+    }
+    p {
+      color: $grayish-blue;
+      line-height: 1.9;
+    }
+  }
+  &--subscription {
+    background-color: $cyan;
+    color: $light-gray;
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      span:nth-child(1) {
+        margin-right: .7rem;
+        font-size: 2.2rem;
+        font-weight: 700;
+      }
+      span:nth-child(2) {
+        color: $light-gray;
+      }
+    }
+    p {
+      margin-top: .5rem;
+      margin-bottom: 1.9rem;
+      font-size: 1.03rem;
+    }
+    button {
+      width: 100%;
+      background-color: $bright-yellow;
+      border: none;
+      border-radius: .3rem;
+      color: $light-gray;
+      cursor: pointer;
+      margin-bottom: .5rem;
+      display: inline-block;
+      padding: 1rem 1.3rem;
+      font-size: .9rem;
+      font-weight: 700;
+    }
+  }
+  &--why {
+    background-color: $light-cyan;
+    h2 {
+      color: $light-gray;
+      font-size: 1.2rem;
+    }
+    ul {
+      color: hsl(181, 64%, 85%);
+    }
+    li {
+      line-height: 1.5;
+    }
+  }
+}

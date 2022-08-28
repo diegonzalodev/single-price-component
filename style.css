@@ -1,0 +1,99 @@
+body {
+  background-color: #e5eff5;
+  font-family: "Karla", sans-serif; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+
+.main {
+  width: 19.5rem;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section {
+  padding: 1rem 1.6rem; }
+  .section h2 {
+    margin-top: 1rem;
+    font-size: 1.33rem;
+    font-weight: 700; }
+  .section p {
+    font-size: .85rem;
+    font-weight: 400; }
+  .section--join {
+    background-color: white; }
+    .section--join h2 {
+      color: #2ab2af;
+      margin-bottom: 0; }
+    .section--join h3 {
+      color: #c0df34;
+      margin-top: 1.4rem;
+      margin-bottom: 1.4rem;
+      font-size: 1rem; }
+    .section--join p {
+      color: #98a6bd;
+      line-height: 1.9; }
+  .section--subscription {
+    background-color: #2ab2af;
+    color: #e5eff5; }
+    .section--subscription h2 {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem; }
+    .section--subscription div {
+      display: flex;
+      align-items: center; }
+      .section--subscription div span:nth-child(1) {
+        margin-right: .7rem;
+        font-size: 2.2rem;
+        font-weight: 700; }
+      .section--subscription div span:nth-child(2) {
+        color: #e5eff5; }
+    .section--subscription p {
+      margin-top: .5rem;
+      margin-bottom: 1.9rem;
+      font-size: 1.03rem; }
+    .section--subscription button {
+      width: 100%;
+      background-color: #c0df34;
+      border: none;
+      border-radius: .3rem;
+      color: #e5eff5;
+      cursor: pointer;
+      margin-bottom: .5rem;
+      display: inline-block;
+      padding: 1rem 1.3rem;
+      font-size: .9rem;
+      font-weight: 700; }
+  .section--why {
+    background-color: #4bbebc; }
+    .section--why h2 {
+      color: #e5eff5;
+      font-size: 1.2rem; }
+    .section--why ul {
+      color: #c0f0f1; }
+    .section--why li {
+      line-height: 1.5; }
+
+@media (min-width: 768px) {
+  .main {
+    width: 90%;
+    max-width: 48rem; }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15rem 20rem; }
+  .section--join {
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
+    grid-column: span 4; }
+  .section--subscription {
+    border-bottom-left-radius: .6rem;
+    grid-column: 1 / 3; }
+  .section--why {
+    border-bottom-right-radius: .6rem;
+    grid-column: 3 / 5; } }
