@@ -9,6 +9,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+      - [Desktop solution image](#desktop-solution-image)
+      - [Mobile solution image](#mobile-solution-image)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -25,12 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop solution image
 
+![Desktop Solution Image](images/screenshots/screenshot-desktop.png)
+
+#### Mobile solution image
+
+![Mobile Solution Image](images/screenshots/screenshot-mobile.png)
 
 ### Links
 
-- Live Site URL: [Single Price Grid Component](https://your-live-site-url.com)
+- Live Site URL: [Single Price Grid Component](https://diegonzalodev.github.io/single-price-grid-component/)
 
 ## My process
 
