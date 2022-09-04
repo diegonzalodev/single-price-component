@@ -1,0 +1,8 @@
+@mixin pd ($pd-y, $pd-x){
+  padding: $pd-y $pd-x;
+}
+
+@mixin mg ($mg-top, $mg-bot) {
+  margin-top: $mg-top;
+  margin-bottom: $mg-bot;
+}

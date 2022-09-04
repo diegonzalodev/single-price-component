@@ -1,9 +1,16 @@
 $cyan: hsl(179, 62%, 43%);
 $light-cyan: hsl(179, 47%, 52%);
-$price-cyan: hsl(180, 57%, 64%);
+$price-color: hsl(180, 57%, 64%);
+$ul-color: hsl(181, 64%, 85%);
 $bright-yellow: hsl(71, 73%, 54%);
 
 $light-gray: hsl(204, 43%, 93%);
 $grayish-blue: hsl(218, 22%, 67%);
 
 $principal-font: 'Karla', sans-serif;
+
+$container-shadow: 0px 0px 14px 1px #00000024;
+$button-shadow: 0px 4px 10px 1px #00000033;
+
+$desktop-border-radius: .6rem;
+$mobile-border-radius: .4rem;

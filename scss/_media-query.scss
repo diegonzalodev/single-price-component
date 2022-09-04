@@ -9,14 +9,14 @@
     grid-template-rows: 15rem 19rem;
   }
   .section {
+    // Section Join
     &--join {
-      padding: 2rem 2.8rem;
-      border-top-right-radius: .6rem;
-      border-top-left-radius: .6rem;
+      @include pd (2rem, 2.8rem);
+      border-top-right-radius: $desktop-border-radius;
+      border-top-left-radius: $desktop-border-radius;
       grid-column: span 4;
       h2 {
-        margin-top: .8rem;
-        margin-bottom: 1.7rem;
+        @include mg (.8rem, 1.7rem);
         font-size: 1.6rem;
       }
       h3 {
@@ -24,15 +24,15 @@
         font-size: 1.2rem;
       }
       p {
-        margin-top: 0;
-        margin-bottom: 0;
+        @include mg (0, 0);
         font-size: 1.1rem;
         line-height: 1.7;
       }
     }
+    // Section Subscription
     &--subscription {
-      padding: 2.1rem 2.8rem;
-      border-bottom-left-radius: .6rem;
+      @include pd (2.1rem, 2.8rem);
+      border-bottom-left-radius: $desktop-border-radius;
       grid-column: 1 / 3;
       h2 {
         font-size: 1.3rem;
@@ -47,8 +47,7 @@
         }
       }
       p {
-        margin-top: .6rem;
-        margin-bottom: 2.15rem;
+        @include mg (.6rem, 2.15rem);
         font-size: 1.13rem;
       }
       button {
@@ -56,9 +55,11 @@
         font-size: 1rem;
       }
     }
+    // Section Why
     &--why {
-      padding: 2.1rem 2.8rem;
-      border-bottom-right-radius: .6rem;
+      @include pd (2.1rem, 2.8rem);
+      border-bottom-right-radius: $desktop-border-radius;
+      border-bottom-left-radius: 0;
       grid-column: 3 / 5;
       h2 {
         font-size: 1.25rem;
